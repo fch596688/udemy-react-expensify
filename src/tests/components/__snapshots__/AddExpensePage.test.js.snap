@@ -6,7 +6,7 @@ exports[`render AddExpensePage correctly 1`] = `
     Add Expense
   </h1>
   <ExpenseForm
-    addExpense={[Function]}
+    onSubmit={[Function]}
   />
 </div>
 `;

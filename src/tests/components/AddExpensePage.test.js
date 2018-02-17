@@ -16,7 +16,7 @@ test('render AddExpensePage correctly', () => {
 });
 
 test('handle onSubmit', () => {
-    wrapper.find('ExpenseForm').prop('addExpense')(expenses[1]);
+    wrapper.find('ExpenseForm').prop('onSubmit')(expenses[1]);
     expect(history.push).toHaveBeenLastCalledWith('/');
     expect(addExpense).toHaveBeenLastCalledWith(expenses[1]);
 });
