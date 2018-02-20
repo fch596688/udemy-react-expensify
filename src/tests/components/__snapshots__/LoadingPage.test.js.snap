@@ -23,3 +23,14 @@ exports[`correctly render LoginPage 1`] = `
   </div>
 </div>
 `;
+
+exports[`render page correctly 1`] = `
+<div
+  className="loader"
+>
+  <img
+    className="loader__image"
+    src="/images/loader.gif"
+  />
+</div>
+`;
